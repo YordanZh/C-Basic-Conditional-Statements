@@ -1,0 +1,37 @@
+using System;
+
+namespace ToyStore
+{
+    class ToyStore
+    {
+        static void Main(string[] args)
+        {
+            double neededMoney = double.Parse(Console.ReadLine());
+            int soldPuzzels = int.Parse(Console.ReadLine());
+            int soldDolls = int.Parse(Console.ReadLine());
+            int soldTeddyBears = int.Parse(Console.ReadLine());
+            int soldMinions = int.Parse(Console.ReadLine());
+            int soldTrucks = int.Parse(Console.ReadLine());
+
+            double puzzelsMoney = soldPuzzels * 2.60;
+            double dollsMoney = soldPuzzels * 3;
+            double teddybearsMoney = soldPuzzels * 4.1;
+            double minionsMoney = soldPuzzels * 8.2;
+            double trucksMoney = soldPuzzels * 2;
+
+            double totalMoney = (puzzelsMoney + dollsMoney + teddybearsMoney + minionsMoney + trucksMoney);
+
+            int soldToysCount = 
+
+            if (soldToysCount >=50)
+
+            {
+                totalMoney = totalMoney * 0.75;
+            }
+
+            totalMoney = totalMoney * 0.9;
+
+            if (totalMoney >= totaTravelMoney)
+        }
+    }
+}
